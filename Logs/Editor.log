@@ -1,0 +1,449 @@
+VBCSCompilerPreWarmer: watching VBCSCompiler (PID 996)
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 31536)
+VBCSCompiler prewarm took 168.14 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/staging' branch; Version is '6000.6.3f1 (45d8eee7de74) revision 4577518'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-geovanna62658666" at "2026-10-14T11:34:50.375132Z"
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'pt' Physical Memory: 16070 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-14T11:34:50Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 1080, path: "C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.3'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-geovanna62658666"
+[Licensing::IpcConnector] LicenseClient-geovanna62658666 channel disconnected successfully.
+[Licensing::IpcConnector] Channel LicenseClient-geovanna62658666-6000.6.3 doesn't exist
+[Licensing::Module] Successfully launched the LicensingClient (PId: 32316)
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Unity.exe
+-projectpath
+C:\Users\geovanna62658666\RollABall_Geovanna
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-geovanna62658666
+-hubSessionId
+58250721-4569-42ff-be5c-d61f27b22192
+-accessToken
+gEnUwVqQSyuvcZP3AZ3FYCxAwx4maMdlzOE-M-6Srzc004f
+Successfully changed project path to: C:\Users\geovanna62658666\RollABall_Geovanna
+C:/Users/geovanna62658666/RollABall_Geovanna
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [32348]  Target information:
+
+Player connection [32348]  * "[IP] 10.16.109.28 [Port] 55504 [Flags] 2 [Guid] 1592751399 [EditorId] 1592751399 [Version] 1048832 [Id] WindowsEditor(7,L06003-033230) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [32348] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [32348] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-18216" after 0.0 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-geovanna62658666-6000.6.3" at "2026-10-14T11:34:53.4672516Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 32316, path: "C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              1533628e320740acb4247da068d0b9d8
+  Correlation Id:          adb3783e2c57fc96a4c0406faae6022e
+  External correlation Id: 1767882052901985028
+  Machine Id:              1Fm0HqfShvSydsCL6PxvqyhTang=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-geovanna62658666-6000.6.3" (connect: 2.91s, validation: 0.37s, handshake: 0.14s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-geovanna62658666-6000.6.3-notifications" at "2026-10-14T11:34:53.975112Z"
+[Licensing::Module] Connected to LicensingClient (PId: 32316, launch time: 0.08, total connection time: 3.42s)
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token gEnUwVqQSy...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-M6WQ-K3WQ-NUKJ-7PBP-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 3.80s
+[Licensing::Module] Licensing is initialized (took 2.32s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: c1fe04bdb1821b282e4f46a013958d93
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: false
+Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/geovanna62658666/RollABall_GeovannaUnity Data Store running and initialised
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.3f1 (45d8eee7de74)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/geovanna62658666/RollABall_Geovanna/Assets
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA RTX 2000 Ada Generation (ID=0x28b0)
+    Vendor:   NVIDIA
+    VRAM:     16118 MB
+    Driver:   32.0.15.9671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.078779 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.983 seconds
+Domain Reload Profiling: 3440ms
+	BeginReloadAssembly (461ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (156ms)
+	initialDomainReloadingComplete (206ms)
+	LoadAllAssembliesAndSetupDomain (628ms)
+		LoadAssemblies (463ms)
+		TypeCache.Refresh (542ms)
+			TypeCache.ScanAssembly (496ms)
+		AnalyzeDomain (0ms)
+	FinalizeReload (1984ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (65ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (81ms)
+			ProcessInitializeOnLoadMethodAttributes (1451ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 59 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.navigation@2.0.14 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.ai.navigation@134dd6a3b97b)
+    com.unity.collab-proxy@2.13.6 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.38 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.visualscripting@1.9.12 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.visualscripting@4edfcc09512f)
+    com.unity.searcher@4.9.5 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.profiling.core@1.0.3 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.profiling.core@8a49f7027d06)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+  Built-in packages:
+    com.unity.render-pipelines.universal@17.6.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.render-pipelines.universal@327d93d1cbc8)
+    com.unity.test-framework@1.8.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.test-framework@80f691d4262b)
+    com.unity.timeline@6.6.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.timeline@c56d56b0070b)
+    com.unity.ugui@2.6.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.ugui@0727b404f3a0)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
+    com.unity.render-pipelines.core@17.6.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.render-pipelines.core@02d75770e4b3)
+    com.unity.shadergraph@17.6.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.shadergraph@1dd0fd24b57e)
+    com.unity.render-pipelines.universal-config@17.6.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.render-pipelines.universal-config@561422b74439)
+    com.unity.graph-authoring@1.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.graph-authoring@cfd2588851ee)
+    com.unity.burst@2.0.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.burst@626e66ab421b)
+    com.unity.collections@6.6.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.collections@10fff0607388)
+    com.unity.test-framework.performance@6.6.0 (location: C:\Users\geovanna62658666\RollABall_Geovanna\Library\PackageCache\com.unity.test-framework.performance@b6023decb532)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.56 seconds
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/geovanna62658666/RollABall_Geovanna
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll"
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll"
+ExitCode: 0 Duration: 10s
+[654/972    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (10.53 seconds), 1 items updated, 972 evaluated
+AssetDatabase: script compilation time: 13.541042s
+Begin MonoManager ReloadAssembly
+Total cache size 257644700
+Total cache size after purge 257644700, took 00:00:00.3939482
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 25.28 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.914 seconds
+Domain Reload Profiling: 2728ms
+	BeginReloadAssembly (572ms)
+		DisableScriptedObjects (54ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (167ms)
+	LoadAllAssembliesAndSetupDomain (1057ms)
+		LoadAssemblies (1117ms)
+		TypeCache.Refresh (176ms)
+			TypeCache.ScanAssembly (165ms)
+		AnalyzeDomain (69ms)
+			BuildScriptInfoCaches (61ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (915ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (302ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (3ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Starting new worker id: 0 with log in C:/Users/geovanna62658666/RollABall_Geovanna/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=595bb1aaeabd9df4e852a5a0e83f58da): Total: 19.157 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=2874 ms
+		Asset DB Callback time: managed=27 ms, native=569 ms
+		Scripting: domain reloads=1, domain reload time=2050 ms, compile time=13547 ms, other=88 ms
+		Project Asset Count: scripts=1377, non-scripts=2361
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 586.085ms
+	ApplyChangesToAssetFolders: 1.201ms
+	Scan: 125.205ms
+	Collect global state as custom dependencies: 40.688ms
+	CategorizeScriptCompilationAssets: 419.511ms
+	ProcessAssetsWithTransientArtifactChanges: 70.624ms
+	CategorizeAssets: 75.937ms
+	CompileScripts: 13547.055ms
+	ImportOutOfDateAssets: 1006.356ms (959.266ms without children)
+		ReloadNativeAssets: 0.220ms
+		UnloadImportedAssets: 0.690ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.553ms
+		ImportSchedulerStart: 45.622ms
+	PostProcessAllAssets: 27.571ms
+		MonoPostProcessAllAssets: 27.519ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 12.147ms
+			SyncVS.PostprocessSyncProject 2.654ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.538ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.273ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.778ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.713ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.437ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.208ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.192ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.154ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.133ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.130ms
+	UnloadStreamsBegin: 1.524ms
+	PersistCurrentRevisions: 0.100ms
+	GenerateScriptTypeHashes: 1.325ms
+	GenerateScriptTypeSerializationHashes: 2.316ms
+	Untracked: 3207.730ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Scanning for USB devices : 1.911ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-RollABall_Geovanna
+Unloading 65 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/MiniGame.unity'
+	Deserialize:            52.091 ms
+	Integration:            74.343 ms
+	Integration of assets:  2.261 ms
+	Thread Wait Time:       0.282 ms
+	Total Operation Time:   128.977 ms
+Unloading 6627 unused Assets / (13.0 MB). Loaded Objects now: 7929.
+Memory consumption went from 436.2 MB to 423.2 MB.
+Total: 16.565400 ms (FindLiveObjects: 0.614100 ms CreateObjectMapping: 0.301700 ms MarkObjects: 5.627900 ms  DeleteObjects: 9.689000 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+[LAYOUT] About to save layout C:\Users\geovanna62658666\RollABall_Geovanna\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/geovanna62658666/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
+<RI> Initializing input.
+Using Windows.Gaming.Input
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+[Project] Loading completed in 34.683 seconds
+	Project init time: 				31.614 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		2.364 seconds
+		Asset Database init time: 		1.829 seconds
+		Global illumination init time: 	0.058 seconds
+		Assemblies load time: 			3.561 seconds
+		Unity extensions init time: 	0.032 seconds
+		Asset Database refresh time: 	19.158 seconds
+	Scene opening time: 			2.556 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1791977724868,"processId":18216,"projectLoad":34.6833196,"projectInit":31.61363,"templateInit":0.0,"packageManagerInit":2.3636518,"assetDatabaseInit":1.8291189,"globalIlluminationInit":0.0583507,"assembliesLoad":3.5606393,"unityExtensionsInit":0.0319593,"assetDatabaseRefresh":19.1581073,"sceneOpening":2.5564854}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1791977724868,"processId":18216,"editorVersion":"6000.6.3f1 (45d8eee7de74)","branch":"6000.6/staging","buildType":"Release","platform":"Windows"}
+Worker ready: AssetImportWorkerHW0 0
+Asset Pipeline Refresh (id=1d08101fb92200248bd2801b2b6fb605): Total: 0.134 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+GPU Resident Drawer created.
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Created GICache directory at C:/Users/geovanna62658666/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.024s, timestamps: [34.843 - 34.867]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "gEnUwVqQ"... (expires: 2026-10-14T13:35:27Z)
+Android Extension - Scanning For ADB Devices 2778 ms
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "gEnUwVqQ"... (expires: 2026-10-14T13:35:29Z)
+Android Extension - Scanning For ADB Devices 577 ms
+Attempted to call .Dispose on an already disposed CancellationTokenSource
+Android Extension - Scanning For ADB Devices 932 ms
+Android Extension - Scanning For ADB Devices 546 ms
+[Licensing::Client] Successfully resolved entitlement details
+TrimDiskCacheJob: Current cache size 0mb
+Asset Pipeline Refresh (id=123e92a7df4fa504fa5278539e7fb104): Total: 0.031 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=9e0dd43e19b47374fabc3981a74eb833): Total: 0.012 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=637867884e875bb419fb667c878c9dac): Total: 0.030 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Importing 'GUID: 00000000000000009000000000000000 - Path: ProjectSettings/QualitySettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000009000000000000000' -> (Import Result ID: '8151b601d05d3e12de314c2aa1f82962') in 0.005 seconds [static dependencies only]. Details - ImportResultOutputID=2a108b3da874f726c62fbe5f12be4a8a DependenciesID=6180c49ef29638684367d2893c04e070 StaticDependenciesID=5b19720d9149525484b40148944c8e26 
+Refreshing native plugins compatible for Editor in 6.88 ms, found 4 plugins.
+Asset Pipeline Refresh (id=a330d21e612a1884698c17eb1df33cbe): Total: 0.134 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: ed55ef6653d76154e8b69ddb79133c03 - Path: Assets/Scenes/MiniGame.unity' with importer (DefaultImporter)
+Imported 'GUID: ed55ef6653d76154e8b69ddb79133c03' -> (Import Result ID: 'b6cd4c06633b84f2704cf1e7c9f4eb39') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=1720c405ce862a3a758c6e09cf70df05 DependenciesID=154148878138a0d9163ed22e224abeeb StaticDependenciesID=d0a0a7257cde408adf4d2ae2e267ed18 
+Refreshing native plugins compatible for Editor in 5.59 ms, found 4 plugins.
+Asset Pipeline Refresh (id=1c660aa1cccb13545bc055e4d4f95c64): Total: 0.053 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Request Asset Garbage Collect because used heap size increased from 422.7 MB to 0.67 GB, exceeding the threshold of 256.0 MB.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 272 unused Assets / (17.3 MB). Loaded Objects now: 9175.
+Memory consumption went from 0.67 GB to 0.65 GB.
+Total: 14.932000 ms (FindLiveObjects: 0.806400 ms CreateObjectMapping: 0.164300 ms MarkObjects: 10.680500 ms  DeleteObjects: 3.042300 ms)
+
+Starting new worker id: 1 with log in C:/Users/geovanna62658666/RollABall_Geovanna/Logs/AssetImportWorkerHW1.log
+[Worker0] Imported GUID: ed55ef6653d76154e8b69ddb79133c03 - Path: Assets/Scenes/MiniGame.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1dc1abd096163e7b2b29687202006d12') in 0.1197531 seconds
+Worker ready: AssetImportWorkerHW1 1
+Asset Pipeline Refresh (id=e973046a3c8106b4eaec2d7b0449669b): Total: 0.118 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=d4b892b349f171d44915f6e040f11002): Total: 0.011 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=858ac933ce7c5cb47908bf4c1bb903a2): Total: 0.016 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+MonoPathRemapper: Attempts to remap: 38041; Successful remaps: 18958
+Serialized file version minimum: 22, current 23
+[LAYOUT] About to save layout C:\Users\geovanna62658666\RollABall_Geovanna\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/geovanna62658666/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+Killing ADB server in 2,1378962 seconds.
+GPU Resident Drawer disposed.
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+[Licensing::IpcConnector] LicenseClient-geovanna62658666-6000.6.3-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-geovanna62658666-6000.6.3 channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+Shut down UDS service system complete
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+abort_threads: Failed aborting id: 0000000000005944, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 00000000000096C8, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000005944, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 00000000000096C8, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 4964
+VBCSCompilerPreWarmer: requested VBCSCompiler shutdown
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1791980013638,"processId":18216,"allocatedMemory":18654346,"memoryLabels":[{"Default":197037},{"Permanent":15516},{"NewDelete":70025},{"Thread":4198024},{"Manager":2343357},{"VertexData":8},{"Geometry":816},{"Shader":857017},{"Material":68},{"TextureCache":760},{"GfxDevice":55968},{"Animation":952},{"Audio":984},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":16864},{"Input":45280},{"JobScheduler":256},{"TextLib":36829},{"Mono":48},{"MonoCode":64},{"ScriptingNativeRuntime":1286480},{"BaseObject":48912},{"Resource":1252},{"Renderer":2384},{"Transform":4685},{"File":37087},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":1099703},{"StaticString":3808},{"Utility":2676602},{"Curl":48},{"PoolAlloc":2840},{"AI":80},{"TypeTree":18701},{"ScriptManager":12656},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7584},{"WebRequest":4580},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":540},{"Camera":729},{"Secure":265},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":960},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":268046},{"EditorUtility":149839},{"VersionControl":8},{"Undo":931},{"AssetDatabase":4670053},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36881},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":231},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3606},{"Windowing":456},{"Licensing":1528},{"AssetReference":32},{"IPCStream":32}]}

@@ -1,0 +1,32 @@
+[2026-10-14T11:34:51.453Z][INFO] Command-line: 'C:\\Program Files\\Unity\\Hub\\Editor\\6000.6.3f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe' server -s 18216 --ipc-path Unity-Upm-18216 -l 2 --log-file C:\\Users\\geovanna62658666\\RollABall_Geovanna/Logs/upm.log
+[2026-10-14T11:34:51.510Z][INFO] IPC server started (IPC path=Unity-Upm-18216).
+[2026-10-14T11:34:51.510Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-18216.
+[2026-10-14T11:34:59.006Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-14T11:34:59.034Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-14T11:34:59.490Z][INFO] config:project:get-registries --> 200 (456 ms)
+[2026-10-14T11:34:59.517Z][INFO] project:list-packages --> 200 (511 ms)
+[2026-10-14T11:35:00.448Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-14T11:35:00.582Z][INFO] project:list-packages --> 200 (134 ms)
+[2026-10-14T11:35:19.100Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-14T11:35:19.138Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-14T11:35:19.349Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-14T11:35:19.396Z][INFO] project:list-packages --> 200 (295 ms)
+[2026-10-14T11:35:19.396Z][INFO] project:list-packages --> 200 (258 ms)
+[2026-10-14T11:35:19.446Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-14T11:35:19.453Z][INFO] config:project:get-registries --> 200 (7 ms)
+[2026-10-14T11:35:19.504Z][INFO] project:list-packages --> 200 (155 ms)
+[2026-10-14T11:35:24.723Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-14T11:35:24.851Z][INFO] project:list-packages --> 200 (127 ms)
+[2026-10-14T11:35:29.264Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-14T11:35:29.597Z][INFO] Downloading package [com.unity.package-manager.metadata-6000.6@0.0.94] from registry 'https://packages.unity.com'
+[2026-10-14T11:35:30.504Z][INFO] Finished downloading package [com.unity.package-manager.metadata-6000.6@0.0.94] from registry 'https://packages.unity.com' (size: 11.5 kB, time: 907ms)
+[2026-10-14T11:35:32.750Z][INFO] project:list-packages --> 200 (3486 ms)
